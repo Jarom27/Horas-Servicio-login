@@ -13,9 +13,9 @@ export default function Logini() {
         <div class="bg-white d-flex border rounded-3">
           <div className="d-flex flex-column justify-content-around mt-4 mb-4 mx-3 div_primario">
             <img alt="LogoFunval" src={logo} />
-            <form className="mx-5 d-flex justify-content-center align-items-center flex-column" action="#" method="">
-              <input className="form-control mb-3" type="text" placeholder="Nombre de usuario" />
-              <input className="form-control mb-3" type="password" placeholder="Contraseña" />
+            <form className="mx-5 d-flex justify-content-center align-items-center flex-column" action="http://127.0.0.1:8000/api/login" method="POST">
+              <input className="form-control mb-3" name="email" type="email" placeholder="Nombre de usuario" />
+              <input className="form-control mb-3" type="password" name="pass" placeholder="Contraseña" />
               <button className="btn btn-primary mb-3 form-control pt-2" type="submit">Acceder</button>
               <p><a href="#.">¿Ha extraviado la contraseña?</a></p>
             </form>
