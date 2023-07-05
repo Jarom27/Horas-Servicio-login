@@ -1,0 +1,118 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+/* body {
+  min-height: 100%;
+  background-color: #F2F3F7;
+}
+ */
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #F2F3F7;
+}
+
+/* Css para el div de las horas */
+
+.cont-horas{
+  margin-top: 75px;
+  text-align: left;
+}
+
+.logo{
+  width: 186px;
+  height: 51px;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 {
+  height: 70px;
+  font-size: 400;
+
+}
+
+.sesion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  margin-right: 20px;
+}
+
+.titulo {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.main-content{
+  background-color: white ;
+  border-radius: 0.5rem;
+}
+
+.servicio{
+  display: block;
+}
+
+.nav2 {
+  margin-top: 70px;
+  border: none;
+  background-color: #0f47ad;
+  height: 60px;
+
+}
+
+.lista {
+  color:#F2F3F7
+}
+
+.ll {
+  flex: none;
+  display: flex;
+  align-items: center;
+  color:#F2F3F7
+}
+
+.titulo-horas {
+  display: flex;
+  justify-content: center;
+}
+
+/*.tabla {
+  display: flex;
+  justify-content: center;
+}*/
+
+.lo {
+  height: 100%;
+}
+
+.canvas {
+  width: 285px;
+  max-width: 285px;
+}
+
+.backg{
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+
+.img{
+  width: 30px;
+}
+
+.div_secundario{
+  width: 500px;
+}
+
+.div_primario{
+  border-right: 1px solid rgb(180, 172, 172) ;
+}
