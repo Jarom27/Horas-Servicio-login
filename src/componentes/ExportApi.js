@@ -37,7 +37,7 @@ function Table1({ data }) {
                   </Form>
                 </th>
                 <td>{student.name}</td>
-                <td>{student.matricula}</td>
+                <td><a href="http://127.0.0.1:8000/api/students/">{student.matricula}</a></td>
                 <td>{student.email}</td>
                 <td>{student.pais}</td>
                 <td>
