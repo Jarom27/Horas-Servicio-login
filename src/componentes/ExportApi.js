@@ -12,10 +12,11 @@ function Table1({ data }) {
           <thead>
             <tr>
               <th scope="col">Revisadas</th>
-              <th scope="col">Cantidad de horas</th>
-              <th scope="col">Tipo de servicio</th>
-              <th scope="col">Fecha de Entrega</th>
-              <th scope="col">Comentarios</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Matricula</th>
+              <th scope="col">Email</th>
+              <th scope="col">Pais</th>
+              <th scope="col">Comentario</th>
             </tr>
           </thead>
           <tbody>
